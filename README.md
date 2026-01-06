@@ -1,0 +1,65 @@
+# mcp-server-openai-bridge
+
+[![PyPI](https://img.shields.io/pypi/v/mcp-server-openai-bridge)](https://pypi.org/project/mcp-server-openai-bridge/)
+
+MCP Server - Bridge to OpenAI API.
+
+Part of the [HumoticaOS](https://humotica.com) / [SymbAIon](https://symbaion.eu) ecosystem.
+
+## Installation
+
+```bash
+pip install mcp-server-openai-bridge
+```
+
+## Usage
+
+### With Claude Desktop
+
+Add to your `claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "openai": {
+      "command": "mcp-server-openai-bridge",
+      "env": {
+        "OPENAI_API_KEY": "sk-..."
+      }
+    }
+  }
+}
+```
+
+### With Docker
+
+```bash
+docker build -t mcp-server-openai-bridge .
+docker run -i -e OPENAI_API_KEY=sk-... mcp-server-openai-bridge
+```
+
+## Environment Variables
+
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `OPENAI_API_KEY` | Yes | Your OpenAI API key |
+
+## Features
+
+- Connect MCP clients to OpenAI API
+- Support for GPT-4, GPT-3.5, and other models
+- Streaming responses
+- Simple configuration
+
+## Authors
+
+- Jasper van de Meent ([@jaspertvdm](https://github.com/jaspertvdm))
+- Root AI (Claude) - root_ai@humotica.nl
+
+## License
+
+MIT
+
+---
+
+**One Love, One fAmIly!**
