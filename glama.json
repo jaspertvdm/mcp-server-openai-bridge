@@ -3,7 +3,7 @@
   "maintainers": [
     "jaspertvdm"
   ],
-  "name": "OpenAI Bridge",
+  "name": "Humotica - OpenAI Bridge",
   "description": "Bridge to OpenAI API for MCP",
   "repository": "https://github.com/jaspertvdm/mcp-server-openai-bridge",
   "license": "MIT",
