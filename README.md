@@ -6,6 +6,10 @@ MCP Server - Bridge to OpenAI API.
 
 Part of the [HumoticaOS](https://humotica.com) / [SymbAIon](https://symbaion.eu) ecosystem.
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/jaspertvdm-mcp-server-openai-bridge).
+
 ## Installation
 
 ```bash
